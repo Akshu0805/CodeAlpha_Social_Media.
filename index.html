@@ -1,0 +1,39 @@
+<html>
+<head>
+  <title>Social Media Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <div id="container">
+    <div id="header">
+      <h1>Social Media Dashboard</h1>
+      <p>Connect your accounts and view your feeds in one place.</p>
+    </div>
+    <div id="login">
+      <form id="login-form" onsubmit="login(event)">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <button type="submit" id="login-button">Log In</button>
+      </form>
+    </div>
+    <div id="feeds">
+      <div id="facebook-feed" class="feed">
+        <h2>Facebook</h2>
+        <ul id="facebook-posts"></ul>
+      </div>
+      <div id="twitter-feed" class="feed">
+        <h2>Twitter</h2>
+        <ul id="twitter-tweets"></ul>
+      </div>
+      <div id="instagram-feed" class="feed">
+        <h2>Instagram</h2>
+        <ul id="instagram-photos"></ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+

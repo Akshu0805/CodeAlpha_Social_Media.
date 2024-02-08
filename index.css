@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  #header {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  #login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  
+  #login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #login-form label {
+    margin: 10px;
+  }
+  
+  #login-form input {
+    width: 200px;
+  }
+  
+  #login-button {
+    width: 100px;
+    margin: auto;
+  }
+  
+  #feeds {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .feed {
+    width: 30%;
+    border: 1px solid black;
+    overflow-y: scroll;
+    height: 500px;
+  }
+  
+  .feed h2 {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  .feed ul {
+    list-style: none;
+  }
+  
+  .feed li {
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
